@@ -11,6 +11,13 @@ public class AppController {
 	public String myMessage() {
 		return "Hello SpringBoot";
 	}
+	@GetMapping("/name")
+	public String myName() {
+		return "My name is SpringBoot";
+	}
+	@GetMapping("/index")
+	public String myIndex() {
+		return "My index is 2020ict09";
+	}
 	
-
 }
